@@ -55,7 +55,6 @@ class GFG {
 // } Driver Code Ends
 
 
-
 // In This question I used Sliding Window Approch.
 class Solution {
     public static int stockBuyAndSell(int n, int[] prices) {
@@ -78,4 +77,3 @@ class Solution {
         return sum;
     }
 }
-        
