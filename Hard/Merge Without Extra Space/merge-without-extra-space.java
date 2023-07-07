@@ -66,4 +66,3 @@ class Solution {
         Arrays.sort(arr2);
     }
 }
-
