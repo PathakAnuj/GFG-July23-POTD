@@ -42,7 +42,6 @@ public class Main
 // } Driver Code Ends
 
 
-
 class Solution {
     // Function to merge the arrays.
     public static void merge(long arr1[], long arr2[], int n, int m) {
@@ -67,3 +66,4 @@ class Solution {
         Arrays.sort(arr2);
     }
 }
+
