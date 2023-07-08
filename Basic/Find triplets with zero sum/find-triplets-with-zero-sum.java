@@ -22,10 +22,6 @@ class Triplets{
 // } Driver Code Ends
 
 
-/*Complete the function below*/
-
-
-
 class Solution {
     // arr[]: input array
     // n: size of the array
