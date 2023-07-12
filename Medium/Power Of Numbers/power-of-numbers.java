@@ -54,7 +54,6 @@ class Main {
 
 
 
-
 class Solution {
     long power(int N, int R) {
         long MOD = 1000000007;
