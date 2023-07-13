@@ -58,7 +58,6 @@ class GFG {
 
 
 
-
 class Solution {
     public static boolean isFrequencyUnique(int n, int[] arr) {
         // code here
