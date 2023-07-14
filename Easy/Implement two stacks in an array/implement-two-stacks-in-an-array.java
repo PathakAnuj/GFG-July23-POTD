@@ -46,7 +46,6 @@ class TwoStack
 
 
 
-
 class twoStacks
 {
     int arr[];
