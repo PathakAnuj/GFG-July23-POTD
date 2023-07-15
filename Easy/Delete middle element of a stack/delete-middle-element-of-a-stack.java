@@ -49,7 +49,5 @@ class Solution
         if(n%2==0) n=sizeOfStack/2;
         else n=(sizeOfStack/2)+1;
         s.remove(n-1);
-       // System.out.println(s);
     } 
 }
-
