@@ -51,4 +51,3 @@ class Solution
         s.remove(n-1);
     } 
 }
-
