@@ -63,21 +63,6 @@ class ReverseInSize
 // } Driver Code Ends
 
 
-/*node class of the linked list
-
-class Node
-{
-    int data;
-    Node next;
-    Node(int key)
-    {
-        data = key;
-        next = null;
-    }
-}
-
-*/
-
 
 /*node class of the linked list
 
