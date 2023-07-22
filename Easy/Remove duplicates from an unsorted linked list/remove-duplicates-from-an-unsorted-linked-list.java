@@ -78,7 +78,6 @@ class Remove_Duplicate_From_LL
 
 // } Driver Code Ends
 
-
 /* The structure of linked list is the following
 class Node
 {
