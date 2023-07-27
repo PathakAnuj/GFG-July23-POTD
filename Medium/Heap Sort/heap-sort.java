@@ -35,7 +35,6 @@ class Heap_Sort
 // } Driver Code Ends
 
 
-
 class Solution
 {
     //Function to build a Heap from array.
@@ -87,5 +86,4 @@ class Solution
         }
     }
 }
- 
  
