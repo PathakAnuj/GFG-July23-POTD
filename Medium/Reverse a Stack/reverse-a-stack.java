@@ -42,7 +42,6 @@ class GFG
 
 
 
-
 //User function Template for Java
 
 class Solution
