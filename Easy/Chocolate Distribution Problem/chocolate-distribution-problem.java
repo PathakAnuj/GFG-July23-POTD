@@ -33,7 +33,6 @@ class GfG
 
 
 
-
 class Solution {
     public long findMinDiff(ArrayList<Integer> a, int n, int m) {
         // Sorting the array to make it easier to find the minimum difference
