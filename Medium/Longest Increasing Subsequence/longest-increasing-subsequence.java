@@ -35,7 +35,6 @@ class GFG{
 // } Driver Code Ends
 
 
-
 class Solution {
     //Function to find length of longest increasing subsequence.
     static int longestSubsequence (int n, int[] nums) {
