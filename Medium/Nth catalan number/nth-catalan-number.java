@@ -26,6 +26,7 @@ class GFG {
 
 
 
+
 class Solution {
     public int findCatalan(int n) {
         if (n == 0) {
@@ -43,4 +44,5 @@ class Solution {
         return (int) v[n];
     }
 }
-           
+        
+        
