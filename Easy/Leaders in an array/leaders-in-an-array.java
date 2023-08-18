@@ -44,7 +44,6 @@ class Array {
 
 // } Driver Code Ends
 
-
 class Solution {
     // Function to find the leaders in the array.
     static ArrayList<Integer> leaders(int arr[], int n) {
@@ -66,3 +65,4 @@ class Solution {
         return leaderList;
     }
 }
+
