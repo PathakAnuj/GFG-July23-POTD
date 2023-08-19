@@ -37,7 +37,6 @@ class Main{
 
 
 
-
 class Solution
 {
     //Function to find a continuous sub-array which adds up to a given number.
