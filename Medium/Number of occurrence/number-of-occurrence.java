@@ -32,9 +32,6 @@ public class Main {
 
 
 //User function Template for Java
-
-
-
 class Solution {
     int count(int[] arr, int n, int x) {
         // code here
