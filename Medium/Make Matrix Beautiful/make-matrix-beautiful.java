@@ -68,6 +68,7 @@ class GFG {
 
 
 
+
 class Solution {
     public static int findMinOperation(int N, int[][] matrix) {
         // code here
@@ -95,4 +96,4 @@ class Solution {
 
         return minOperations / 2;
     }
-}      
+}
