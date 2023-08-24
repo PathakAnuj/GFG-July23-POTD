@@ -19,7 +19,7 @@ class Multiply{
 }
 // } Driver Code Ends
 
-//User function Template for Java
+
 
 
 //User function Template for Java
