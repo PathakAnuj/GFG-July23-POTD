@@ -69,7 +69,6 @@ public class LinkedList
 
 
 
-
 /*
 class Node {
    int data;
@@ -109,5 +108,4 @@ class Solution
         return reverse(res);
     }
 }
-  
   
