@@ -115,7 +115,6 @@ class GfG {
 
 
 
-
 class Solution  
 { 
     // Return True if the given trees are isomotphic. Else return False.
@@ -134,4 +133,4 @@ class Solution
         return (isIsomorphic(root1.left, root2.left) && isIsomorphic(root1.right, root2.right)) || (isIsomorphic(root1.left, root2.right) && isIsomorphic(root1.right, root2.left));
     }
     
-}    
+}       
