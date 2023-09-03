@@ -114,6 +114,7 @@ class GfG {
 // } Driver Code Ends
 
 
+
 class Solution {
     boolean isIsomorphic(Node root1, Node root2) {
         if (root1 == null && root2 == null)
@@ -129,4 +130,4 @@ class Solution {
         return leftIsomorphic || mirrorIsomorphic;
     }
 }
-   
+     
