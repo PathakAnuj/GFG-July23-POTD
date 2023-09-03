@@ -114,7 +114,6 @@ class GfG {
 // } Driver Code Ends
 
 
-
 class Solution {
     private boolean areIsomorphicUtil(Node root1, Node root2) {
         if (root1 == null && root2 == null)
@@ -138,4 +137,4 @@ class Solution {
             return true;
         return false;
     }
-}
+} 
