@@ -102,7 +102,6 @@ class GFG {
 
 
 
-
 //User function Template for Java
 
 /*Structure of the node class is
