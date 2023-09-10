@@ -97,6 +97,7 @@ class GFG {
 
 
 
+
 // User function Template for Java
 class Solution {
     // Function to insert a node in a BST.
