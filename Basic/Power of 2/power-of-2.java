@@ -30,6 +30,7 @@ class Driver_class
 // } Driver Code Ends
 
 
+
 class Solution{
     
     // Function to check if given number n is a power of two.
