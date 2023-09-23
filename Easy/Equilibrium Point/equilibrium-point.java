@@ -32,6 +32,7 @@ class Main {
 // } Driver Code Ends
 
 
+
 class Solution {
 
     
@@ -39,20 +40,17 @@ class Solution {
     // n: size of array
     // Function to find equilibrium point in the array.
     public static int equilibriumPoint(long arr[], int n) {
-        if(n==1)return 1;
 
         // Your code here
-        long tsum=0,sum=0;
-        for(int i=0;i<arr.length;i++){
-            tsum+=arr[i];
-        }
-        
-         for(int i=1;i<arr.length;i++){
-            sum+=arr[i-1];
-            if(tsum-(sum+arr[i])==sum)return i+1;
+        if(n==1) return 1;
+        long s1=arr[0];
+        long s2=arr[n-1];
+        int i=1, j=n-2;
+        while(i<=j){
+            if(s1==s2 && i==j) return i+1;
+            if(s1<s2) s1+=arr[i++];
+            else s2+=arr[j--];
         }
         return -1;
-        
-        
     }
 }
