@@ -40,14 +40,6 @@ class GFG {
 
 
 
-
-// User function Template for Java
-
-// arr[] : int input array of integers
-// k : the quadruple sum required
-
-
-
 // User function Template for Java
 
 // arr[] : int input array of integers
