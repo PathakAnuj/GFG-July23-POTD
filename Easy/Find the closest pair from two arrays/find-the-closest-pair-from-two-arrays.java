@@ -46,7 +46,6 @@ class GFG {
 
 
 
-
 class Solution{
     public static ArrayList<Integer> printClosest (int arr[], int brr[], int n, int m, int x) {
         int abs = Integer.MAX_VALUE;
