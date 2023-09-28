@@ -56,6 +56,7 @@ class GFG {
 
 // } Driver Code Ends
 
+
 class Solution {
     public static void convertToWave(int n, int[] a) {
         // code here
