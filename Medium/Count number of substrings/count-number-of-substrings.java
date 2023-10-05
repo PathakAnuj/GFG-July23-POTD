@@ -22,8 +22,6 @@ class GfG
 }
 // } Driver Code Ends
 
-
-
 class Solution
 {
     long helper(String S, int k){
@@ -32,8 +30,7 @@ class Solution
         int n = S.length();
         int[] chars = new int[26];
         int count = 0;
-        // HashMap<Character, Integer> hmap = new HashMap<>();
-        
+
         while(right < n){
             char c = S.charAt(right);
             chars[c - 'a'] += 1;
