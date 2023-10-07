@@ -71,7 +71,6 @@ class GFG{
 // } Driver Code Ends
 
 
-
 class Solution {
     public Node pairwiseSwap(Node head)    {
         if (head == null || head.next == null)
