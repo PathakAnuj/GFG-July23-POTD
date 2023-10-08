@@ -102,9 +102,6 @@ class GFG {
 }
 // } Driver Code Ends
 
-
-
-
 class Solution
 {
     int height(Node node) 
@@ -112,5 +109,6 @@ class Solution
         if (node == null)
            return 0;
         else
-            return 1 + Math.max(height(node.left), height(node.right));    }
+            return 1 + Math.max(height(node.left), height(node.right));
+    }
 }
