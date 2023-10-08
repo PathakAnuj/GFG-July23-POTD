@@ -55,34 +55,24 @@ class GFG{
 
 
 
-/*class Node
-    {
-        int data;
-        Node next;
-        Node(int d) {data = d; next = null; }
-    }*/
 
-// sortedInsert method should return the head of the modified linked list.
 class Solution {
     Node sortedInsert(Node head1, int key) {
-        Node temp=new Node(key);
-        Node n=head1;
-        if(key<n.data){
-            temp.next=n;
+    
+        Node temp = new Node(key);
+        if (head1 == null || head1.data > key) {
+            temp.next = head1;
             return temp;
         }
-        while(n!=null){
-            if(n.next==null){
-                n.next=temp;
-                break;
-            }
-            if(n.data<=key&&n.next.data>key){
-                temp.next=n.next;
-                n.next=temp;
-                break;
-            }
-            n=n.next;
+        
+        Node curr = head1;
+        while (curr.next != null && curr.next.data < key) {
+            curr = curr.next;
         }
+        
+        temp.next = curr.next;
+        curr.next = temp;
+        
         return head1;
     }
 }
