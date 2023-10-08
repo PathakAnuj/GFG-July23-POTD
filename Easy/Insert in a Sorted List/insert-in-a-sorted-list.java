@@ -53,9 +53,6 @@ class GFG{
 
 // } Driver Code Ends
 
-
-
-
 class Solution {
     Node sortedInsert(Node head1, int key) {
     
