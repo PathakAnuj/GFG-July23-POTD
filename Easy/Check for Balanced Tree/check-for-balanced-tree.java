@@ -159,4 +159,3 @@ class Tree
         return 1 + Math.max(lht, rht); // Return the height of the current subtree.
     }
 }
-
