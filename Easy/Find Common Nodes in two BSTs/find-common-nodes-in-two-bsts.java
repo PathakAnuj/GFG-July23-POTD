@@ -20,6 +20,8 @@ class Node{
 // } Driver Code Ends
 //User function Template for Java
 
+//User function Template for Java
+
 class Solution
 {
     //Function to find the nodes that are common in both BST.
