@@ -66,6 +66,8 @@ class GFG {
 // } Driver Code Ends
 
 
+
+
 class Solution{
         //storing the names of islands
     static HashMap<Integer, Integer> map = new HashMap<>();
