@@ -24,7 +24,6 @@ class GFG {
 // } Driver Code Ends
 
 
-
 class Solution {
     static int isPossible(int N, int arr[]) {
         long s=0;
