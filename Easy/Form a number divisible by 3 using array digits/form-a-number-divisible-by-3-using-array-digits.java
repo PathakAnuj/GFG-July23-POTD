@@ -24,7 +24,6 @@ class GFG {
 // } Driver Code Ends
 
 
-// User function Template for Java
 
 class Solution {
     static int isPossible(int N, int arr[]) {
@@ -32,8 +31,6 @@ class Solution {
         for(int i=0;i<N;i++){
            s+=arr[i];
         }
-        if(s%3==0)
-        return 1;
-        else return 0;
+        return s%3==0?1:0;
     }
 }
