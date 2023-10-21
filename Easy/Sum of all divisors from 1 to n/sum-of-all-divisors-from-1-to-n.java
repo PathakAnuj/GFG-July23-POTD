@@ -21,7 +21,6 @@ class GFG
 
 // } Driver Code Ends
 
-
 class Solution{
     static long sumOfDivisors(int n){
         long sum = 0;
