@@ -23,6 +23,7 @@ class GfG {
 
 // } Driver Code Ends
 
+
 class Solution{
     private static final int MOD = 1000000007;
     private static long modInverse(long base) {
