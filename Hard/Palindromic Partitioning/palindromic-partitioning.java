@@ -18,7 +18,6 @@ class GFG{
 }
 // } Driver Code Ends
 
-
 class Solution{
 
     static boolean isPalindrome(int i, int j, String s) {
