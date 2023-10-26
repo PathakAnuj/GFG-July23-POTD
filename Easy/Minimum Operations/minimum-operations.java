@@ -19,6 +19,7 @@ class GfG
 }    
 // } Driver Code Ends
 
+
 class Solution
 {
     public int minOperation(int n)
