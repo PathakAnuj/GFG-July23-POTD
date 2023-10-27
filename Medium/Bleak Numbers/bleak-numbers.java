@@ -22,6 +22,7 @@ class GFG
 
 // } Driver Code Ends
 
+
 class Solution
 {
    public int is_bleak(int n)
